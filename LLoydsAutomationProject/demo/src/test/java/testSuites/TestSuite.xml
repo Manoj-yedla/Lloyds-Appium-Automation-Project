@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" parallel="tests" thread-count="1">
+<test name="Test on 1 device- sampleTest">
+    <parameter name="deviceName" value="e10ec7d1-Android"/>
+    <parameter name="udid" value="e10ec7d1"/>
+    <parameter name="os" value="android"/>
+    <parameter name="platform" value="10"/>
+    <parameter name="simulator" value="false"/>
+    <parameter name="systemPort" value="8210"/>
+<classes>
+    <class name="test.SampleTest"/>
+</classes>
+</test>
+</suite>
